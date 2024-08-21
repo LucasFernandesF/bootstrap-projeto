@@ -1,0 +1,103 @@
+* {
+    font-family: Moderustic, sans-serif;
+}
+
+#cabecalho,
+#carousel-templates,
+#footer-copyright {
+    background-color: #8871fd;
+}
+
+#navbar-links a {
+    color: #fff;
+}
+
+#navbar-links a:hover {
+    color: #4fc5ef;
+}
+
+.custom-btn,
+.custom-btn:hover {
+    color: #fff;
+    background-color: #4fc5ef;
+}
+
+.purple-custom-btn {
+    color: #fff;
+    background-color: #8871fd;
+    border: none;
+}
+
+#home,
+#comprar-template,
+#contato {
+    background-color: #c3d4ff;
+}
+
+.background-img {
+    background-image: url('./img/home.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Garante que a imagem cubra o contêiner */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza o conteúdo */
+}
+
+.span-color {
+    color: #4fc5ef;
+}
+
+.section-title,
+#footer-copyright p {
+    color: #fff;
+    font-weight: bold;
+}
+
+.span-color-purple,
+.span-color-purple:hover {
+    color: #8871fd;
+}
+
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #8871fd;
+}
+
+.social-links {
+    color: #212529;
+}
+
+#form-contato button {
+    background-color: #8871fd;
+    color: #fff;
+}
+
+.success-message {
+    display: none;
+    margin-top: 16px;
+    color: #8871fd;
+    font-weight: bold;
+}
+
+.error-message {
+    color: rgb(250, 89, 89);
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+}
+
+@media (max-width:767px) {
+    .background-img {
+        height: 70vh;
+    }
+}
+
+
+@media (min-width:767px) and (max-width: 1024px) {
+    .background-img {
+        height: 50vh;
+    }
+}
